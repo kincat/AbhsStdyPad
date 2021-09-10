@@ -97,7 +97,6 @@ public class MainActivity extends Activity {
         //加载asset文件夹下html
         // webView.loadUrl("file:///android_asset/test.html");
 
-
         // 设置WEBVIEW属性并返回请求对象
         myRequest = mWebView.setAttr(getApplicationContext(),MainActivity.this);
     }
